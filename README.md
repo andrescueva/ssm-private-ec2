@@ -34,15 +34,15 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | n/a | `map(string)` | <pre>{<br>  "Environment": "dev",<br>  "Lab": "ssm-private-ec2"<br>}</pre> | no |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `string` | `"us-west-2"` | no |
-| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | n/a | `string` | `"10.0.0.0/16"` | no |
+| <a name="input_common_tags"></a> [common\_tags](#input\_common\_tags) | Common tags for resources | `map(string)` | <pre>{<br>  "Environment": "dev",<br>  "Lab": "ssm-private-ec2"<br>}</pre> | no |
+| <a name="input_region"></a> [region](#input\_region) | Region target to deploy resources | `string` | `"us-west-2"` | no |
+| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | CIDR block of the VPC | `string` | `"10.0.0.0/16"` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ami_amazon_linux2_arn"></a> [ami\_amazon\_linux2\_arn](#output\_ami\_amazon\_linux2\_arn) | n/a |
-| <a name="output_ec2_arn"></a> [ec2\_arn](#output\_ec2\_arn) | n/a |
-| <a name="output_vpc_arn"></a> [vpc\_arn](#output\_vpc\_arn) | n/a |
+| <a name="output_ami_amazon_linux2_arn"></a> [ami\_amazon\_linux2\_arn](#output\_ami\_amazon\_linux2\_arn) | ARN of the Amazon Linux 2 AMI |
+| <a name="output_ec2_arn"></a> [ec2\_arn](#output\_ec2\_arn) | ARN of the EC2 instance |
+| <a name="output_vpc_arn"></a> [vpc\_arn](#output\_vpc\_arn) | ARB of the VPC |
 <!-- END_TF_DOCS -->
