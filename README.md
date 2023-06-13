@@ -1,3 +1,7 @@
+## Aqruitecture
+![Figure 1. Architecture of a private EC2 instance managed by SSM
+](diagram-arquitecture.png)
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
